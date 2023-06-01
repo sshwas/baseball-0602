@@ -1,0 +1,47 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30413.136
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "baseball", "baseball\baseball.vcxproj", "{BC011F98-52A8-4CCC-BAF2-8F2B4ACA7D2D}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "baseball-Test1", "baseball-Test1\baseball-Test1.vcxproj", "{70FB835C-A2B9-4777-B442-725FC14F623C}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{A891C43E-4F31-45BD-9BC0-2D9B88DDB98B}"
+	ProjectSection(SolutionItems) = preProject
+		.gitignore = .gitignore
+		README.md = README.md
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x64 = Debug|x64
+		Debug|x86 = Debug|x86
+		Release|x64 = Release|x64
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{BC011F98-52A8-4CCC-BAF2-8F2B4ACA7D2D}.Debug|x64.ActiveCfg = Debug|x64
+		{BC011F98-52A8-4CCC-BAF2-8F2B4ACA7D2D}.Debug|x64.Build.0 = Debug|x64
+		{BC011F98-52A8-4CCC-BAF2-8F2B4ACA7D2D}.Debug|x86.ActiveCfg = Debug|Win32
+		{BC011F98-52A8-4CCC-BAF2-8F2B4ACA7D2D}.Debug|x86.Build.0 = Debug|Win32
+		{BC011F98-52A8-4CCC-BAF2-8F2B4ACA7D2D}.Release|x64.ActiveCfg = Release|x64
+		{BC011F98-52A8-4CCC-BAF2-8F2B4ACA7D2D}.Release|x64.Build.0 = Release|x64
+		{BC011F98-52A8-4CCC-BAF2-8F2B4ACA7D2D}.Release|x86.ActiveCfg = Release|Win32
+		{BC011F98-52A8-4CCC-BAF2-8F2B4ACA7D2D}.Release|x86.Build.0 = Release|Win32
+		{70FB835C-A2B9-4777-B442-725FC14F623C}.Debug|x64.ActiveCfg = Debug|x64
+		{70FB835C-A2B9-4777-B442-725FC14F623C}.Debug|x64.Build.0 = Debug|x64
+		{70FB835C-A2B9-4777-B442-725FC14F623C}.Debug|x86.ActiveCfg = Debug|Win32
+		{70FB835C-A2B9-4777-B442-725FC14F623C}.Debug|x86.Build.0 = Debug|Win32
+		{70FB835C-A2B9-4777-B442-725FC14F623C}.Release|x64.ActiveCfg = Release|x64
+		{70FB835C-A2B9-4777-B442-725FC14F623C}.Release|x64.Build.0 = Release|x64
+		{70FB835C-A2B9-4777-B442-725FC14F623C}.Release|x86.ActiveCfg = Release|Win32
+		{70FB835C-A2B9-4777-B442-725FC14F623C}.Release|x86.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {0801DE3C-2630-4F2C-B8E6-E5424658AEC3}
+	EndGlobalSection
+EndGlobal
