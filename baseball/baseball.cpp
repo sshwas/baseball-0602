@@ -18,6 +18,21 @@ public:
 	{
 	}
 
+	Result guess(string guessNumber)
+	{
+		assertIllegalArgument(guessNumber);
+		if (guessNumber == question)
+			return { true, 3, 0 };
+
+		Result result;
+		result.solved = false;
+		result.strikes = getStrikesCount(guessNumber);
+		result.balls = getBallCount(guessNumber);
+
+		return result;
+	}
+
+private:
 	bool isDuplicatedNumber(string guessNumber)
 	{
 		return guessNumber[0] == guessNumber[1] ||
@@ -81,20 +96,5 @@ public:
 		return result;
 	}
 
-	Result guess(string guessNumber)
-	{
-		assertIllegalArgument(guessNumber);
-		if(guessNumber == question)
-			return { true, 3, 0 };
-
-		Result result;
-		result.solved = false;
-		result.strikes = getStrikesCount(guessNumber);
-		result.balls = getBallCount(guessNumber);
-
-		return result;
-	}
-
-private:
 	string question;
 };
